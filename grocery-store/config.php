@@ -1,9 +1,9 @@
 <?php
 // Database configuration
-$host = 'localhost';
-$username = 'root';
-$password = '';
-$database = 'grocery';
+$host = 'sql210.infinityfree.com';
+$username = 'if0_39904111';
+$password = 'GroceryStore457';
+$database = 'if0_39904111_grocery_store';
 
 try {
     // Create connection without database selection first
