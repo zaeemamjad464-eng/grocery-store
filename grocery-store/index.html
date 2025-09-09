@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FreshMart Grocery - Your one-stop shop for fresh produce, quality groceries, and household essentials">
+    <title>FreshMart Grocery - Fresh Quality Products</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="fade-in">FreshMart Grocery</h1>
+        <img src="images/hero.jpg" alt="Grocery Store" class="hero-img" />
+    </header>
+
+    <main>
+        <section id="products">
+            <h2>Our Products</h2>
+            <div id="product-list">
+                <p>Loading products...</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="submit.php" method="POST" class="contact-form">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 FreshMart Grocery. All rights reserved.</p>
+        <p><a href="admin.php">Admin Panel</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
